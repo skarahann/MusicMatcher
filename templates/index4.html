@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8" />
+        <title>MusicMatcher</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}"/>
+        <link rel="icon" type="image/png" href="/home/karahann/MusicMatcher/app/templates/favicon-96x96.png" sizes="96x96" />
+
+    </head>
+
+    <body>
+        <div class = "main">
+            <h1 class="title"> MusicMatcher</h1>
+            <div class="break"></div>
+            <div>
+                <form method="post" action="test">
+
+                    <div class="col-left div-50-50">
+                        <div>
+                            <p> 1.) Press the play button to start. </p>
+                            <p> 2.) Drag the slider according how how much you like each song: </p>
+                            <p class="italic"> Right = :) & Left = :( </p>
+                            <p> 3.) Press Done to get your recommendation! </p>
+                        </div>
+
+                        <div>
+                            <input  type="range" min="0" max="100" value="50" class="slider div-height-50" name="bdylansongwriter" id="slider1">
+                            <input  type="range" min="0" max="100" value="50" class="slider div-height-50" name="acollctivepsychedelic" id="slider2">
+                            <input  type="range" min="0" max="100" value="50" class="slider div-height-50" name="foceanrb" id="slider3">
+                            <input  type="range" min="0" max="100" value="50" class="slider div-height-50" name="mgmtelectronic" id="slider4">
+                            <input  type="range" min="0" max="100" value="50" class="slider div-height-50" name="nasrap" id="slider5">
+                            <input  type="range" min="0" max="100" value="50" class="slider div-height-50" name="miapop" id="slider6">
+                            <input  type="range" min="0" max="100" value="50" class="slider div-height-50" name="grimesexperimental" id="slider7">
+                            <input  type="range" min="0" max="100" value="50" class="slider div-height-50" name="radioheadrock" id="slider8">
+                            <input  type="range" min="0" max="100" value="50" class="slider div-height-50" name="mgayesoul" id="slider9">
+                            <input  type="range" min="0" max="100" value="50" class="slider div-height-50" name="atwinambient" id="slider10">
+
+                            <input type="submit" value="Done!" id="next" class="button"/>
+
+                        </div>
+                     </div>
+                </form>
+
+                <div class="spotify div-50-50 col-right">
+                    <iframe src="https://open.spotify.com/embed/user/skarahann/playlist/2awFbkPJ6nESWFBTrvhy8w" width="95%" height="587" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+
+            </div>
+        </div>
+
+        <div class = "footer">
+
+            <div class="break-footer"></div>
+            <h2> email: karahann715@gmail.com </h2>
+
+        </div>
+
+    </body>
+
+</html>

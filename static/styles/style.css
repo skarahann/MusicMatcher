@@ -1,0 +1,142 @@
+body {
+    background-color: #dbffe0;
+    font-family: Helvetica, sans-serif;
+}
+
+div {
+    z-index: 9999999;
+}
+
+p {
+    margin-left: 8%;
+    margin-bottom: 15px;
+    width: 600px;
+    color: black;
+    font-weight:100;
+}
+
+h2 {
+    margin-bottom: 5%;
+    margin-left: 4%;
+    color: black;
+    font-weight:100;
+
+}
+
+.italic {
+
+    font-style: italic;
+    margin-left: 14%;
+
+}
+
+.button {
+    margin-left: 39%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #245924;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: 100;
+    width: 24%;
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 69px;
+    font-weight: 100;
+    color: black;
+}
+
+.spotify {
+    float: right;
+}
+
+.slider {
+    margin-left: 7%;
+    -webkit-appearance: none;
+    width: 50%;
+    height: 50px;
+    background: #245924;
+    outline: none;
+    opacity: 0.9;
+    width: 88% !important;
+    border-radius: 15px;
+}
+
+.slider:hover{
+    opacity:1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    /*width: 25px; /* Set a specific slider handle width */
+    /*height: 25px; /* Slider handle height */
+    /*background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    /*width: 25px; /* Set a specific slider handle width */
+    /*height: 25px; /* Slider handle height */
+    /*background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.div-height-50 {
+    height: 44px;
+}
+
+.div-height-500 {
+    height: 500px;
+}
+
+.div-50-50 {
+    width: 50%;
+}
+
+.col-right {
+    float: right;
+    margin-top: 69px;
+}
+
+.col-left {
+    float: left;
+}
+
+.break {
+    height: 1px;
+    background-color: #245924;
+    margin-bottom: 35px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.break-footer{
+
+    height: 1px;
+    background-color: #245924;
+    width: 29%;
+    margin-left: 4%;
+
+}
+
+.footer {
+
+    margin-left: 4px;
+
+}
+
+.main {
+
+    height: 1000px;
+
+}
